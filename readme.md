@@ -145,7 +145,6 @@ To help users better understand and use our code, we briefly overview the functi
 ## Getting Started
 
 ## Citation
-If you use this code for your research, please cite our papers.
 ```
 @inproceedings{CycleGAN2017,
   title={Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks},
