@@ -21,11 +21,11 @@ The repository is organized into two main directories, each dedicated to a speci
 - [`utils.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/utils.py): Utility functions supporting the UNet implementation.
 
 ### Pix2Pix:
-### Prerequisites
+#### Prerequisites
 - Linux or macOS
 - Python 3
 - CPU or NVIDIA GPU + CUDA CuDNN
-### Installation
+#### Installation
 
 - Clone this repo:
 ```bash
@@ -39,7 +39,7 @@ cd pytorch-CycleGAN-and-pix2pix
   - For Docker users, we provide the pre-built Docker image and Dockerfile. Please refer to our [Docker](docs/docker.md) page.
   - For Repl users, please click [![Run on Repl.it](https://repl.it/badge/github/junyanz/pytorch-CycleGAN-and-pix2pix)](https://repl.it/github/junyanz/pytorch-CycleGAN-and-pix2pix).
 
-### CycleGAN train/test
+#### CycleGAN train/test
 - Download a CycleGAN dataset and change images in the file (e.g. maps):
 ```bash
 bash ./datasets/download_cyclegan_dataset.sh maps
@@ -59,7 +59,7 @@ python test.py --dataroot ./datasets/maps --name maps_cyclegan --model cycle_gan
 ```
 - The test results will be saved to a html file here: `./results/maps_cyclegan/latest_test/index.html`.
 
-### pix2pix train/test
+#### pix2pix train/test
 - Download a pix2pix dataset (e.g.[facades](http://cmp.felk.cvut.cz/~tylecr1/facade/)):
 ```bash
 bash ./datasets/download_pix2pix_dataset.sh facades
@@ -83,7 +83,7 @@ python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2
 
 
 
-## Citation
+# Citation
 ```
 ## The pix2pix model was created by:
 The Link for code is:https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
