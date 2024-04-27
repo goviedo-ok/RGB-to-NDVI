@@ -1,4 +1,3 @@
-# (Incomplete/Temporary)
 # RGB-to-NDVI Overview 
 
 This repository uses a unet image training model to convert RGB images to NDVI images. The unet folder contains the training model. The RpiNDVI folder is python code to be used on a RasberryPi with a NoIR camera attached (sourced from https://github.com/robintw/RPiNDVI.git). In future versions two cameras will be used to simultaneously capture both the RGB and NDVI images to create a data set to train the model.
