@@ -27,7 +27,6 @@ The repository is organized into two main directories, each dedicated to a speci
 - Python 3
 - CPU or NVIDIA GPU + CUDA CuDNN
 
-## Getting Started
 ### Installation
 
 - Clone this repo:
