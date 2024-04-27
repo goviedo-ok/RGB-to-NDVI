@@ -87,7 +87,8 @@ python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2
 
 ## Citation
 ```
-## The pix2pix model is following source:
+## The pix2pix model was created by:
+The Link for code is:https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
 @inproceedings{CycleGAN2017,
   title={Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks},
   author={Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A},
