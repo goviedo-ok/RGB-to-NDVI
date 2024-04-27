@@ -9,6 +9,8 @@ The repository is organized into two main directories, each dedicated to a speci
 - [`UNet`](https://github.com/Menonlab-Rich/ml_models/tree/main/unet): Contains the implementation of the UNet model, designed for efficient image segmentation tasks. The directory includes Python scripts for the model architecture, dataset preparation, training routines, and utility functions. A detailed `readme.md` provides instructions and insights into the UNet model's implementation and usage.
 
 - [`Pix2Pix`](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/tree/9f8f61e5a375c2e01c5187d093ce9c2409f409b0): Hosts the implementation of the Pix2Pix model, a popular framework for image-to-image translation tasks using conditional GANs. This section includes scripts for the generator and discriminator networks, configuration settings, dataset handling, and the training process.
+
+## Getting Started
 ### UNet Directory
 
 - [`config.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/config.py): Configuration settings for the UNet model training and evaluation.
@@ -41,7 +43,7 @@ cd pytorch-CycleGAN-and-pix2pix
   - For Repl users, please click [![Run on Repl.it](https://repl.it/badge/github/junyanz/pytorch-CycleGAN-and-pix2pix)](https://repl.it/github/junyanz/pytorch-CycleGAN-and-pix2pix).
 
 ### CycleGAN train/test
-- Download a CycleGAN dataset (e.g. maps):
+- Download a CycleGAN dataset and change images in the file (e.g. maps):
 ```bash
 bash ./datasets/download_cyclegan_dataset.sh maps
 ```
@@ -83,7 +85,6 @@ python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2
 - To train and test pix2pix-based colorization models, please add `--model colorization` and `--dataset_mode colorization`. See our training [tips](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md#notes-on-colorization) for more details.
 
 
-## Getting Started
 
 ## Citation
 ```
