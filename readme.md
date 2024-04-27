@@ -20,7 +20,7 @@ The repository is organized into two main directories, each dedicated to a speci
 - [`train.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/train.py): Script to train the UNet model.
 - [`utils.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/utils.py): Utility functions supporting the UNet implementation.
 
-### Pix2Pix:
+### Pix2Pix Installation:
 #### Pix2Pix Installation from junyanz/pytorch-CycleGAN-and-pix2pix:
 #### Prerequisites
 - Linux or macOS
