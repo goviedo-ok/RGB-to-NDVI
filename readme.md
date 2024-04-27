@@ -11,7 +11,7 @@ The repository is organized into two main directories, each dedicated to a speci
 - [`Pix2Pix`](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/tree/9f8f61e5a375c2e01c5187d093ce9c2409f409b0): Hosts the implementation of the Pix2Pix model, a popular framework for image-to-image translation tasks using conditional GANs. This section includes scripts for the generator and discriminator networks, configuration settings, dataset handling, and the training process.
 
 ## Getting Started
-### UNet Directory
+### UNet Directory:
 
 - [`config.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/config.py): Configuration settings for the UNet model training and evaluation.
 - [`dataset.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/dataset.py): Dataset preparation and loading utilities for UNet.
@@ -21,6 +21,7 @@ The repository is organized into two main directories, each dedicated to a speci
 - [`utils.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/utils.py): Utility functions supporting the UNet implementation.
 
 ### Pix2Pix:
+#### Pix2Pix Installation from junyanz/pytorch-CycleGAN-and-pix2pix:
 #### Prerequisites
 - Linux or macOS
 - Python 3
