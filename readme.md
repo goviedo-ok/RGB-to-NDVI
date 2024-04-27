@@ -20,13 +20,11 @@ The repository is organized into two main directories, each dedicated to a speci
 - [`train.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/train.py): Script to train the UNet model.
 - [`utils.py`](https://github.com/Menonlab-Rich/ml_models/blob/main/unet/utils.py): Utility functions supporting the UNet implementation.
 
-### Pix2Pix Directory
-
-## Prerequisites
+### Pix2Pix:
+### Prerequisites
 - Linux or macOS
 - Python 3
 - CPU or NVIDIA GPU + CUDA CuDNN
-
 ### Installation
 
 - Clone this repo:
